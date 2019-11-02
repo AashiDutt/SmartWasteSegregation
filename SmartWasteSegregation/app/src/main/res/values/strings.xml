@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SmartWasteSegregation</string>
+    <string name="connectViewHeader">Connect to WiFi Accessory</string>
+    <string name="enterIPAddress">Enter WiFi Accessory IP Address</string>
+    <string name="sampleIP">http://000.000.0.0</string>
+    <string name="connectStatus">Connection Status</string>
+    <string name="logPlaceholderText">Device connection status and logs appear here.</string>
+    <string name="connectButton">Connect</string>
+
+    <string name="logEmptyIPError">LOG: IP Address is Empty. Please provide a valid IP Address.</string>
+    <string name="logDeviceIP">LOG: Connecting to WiFi Accessory at IP Address: </string>
+    <string name="logDeviceConnected">LOG: Device connection Successful.</string>
+    <string name="logMoveToNextView">LOG: Moving to Image Classification View.</string>
+</resources>

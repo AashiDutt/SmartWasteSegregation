@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ImageClassificationActivity">
+
+    <TextView
+        android:id="@+id/wasteSubclassTextView"
+        android:layout_width="204dp"
+        android:layout_height="23dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="25dp"
+        android:text="NA"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/motor1TextView"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/wasteSubclassTypeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="22dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="23dp"
+        android:text="Waste Subclass: "
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/motor1StatTextView"
+        app:layout_constraintEnd_toStartOf="@+id/wasteSubclassTextView"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/motor1TextView"
+        android:layout_width="204dp"
+        android:layout_height="23dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="22dp"
+        android:text="NA"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/motor2TextView"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/motor2StatTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="22dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="24dp"
+        android:text="Motor 2 Status: "
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/motor2TextView"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/motor2TextView"
+        android:layout_width="204dp"
+        android:layout_height="23dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="24dp"
+        android:text="NA"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/motor1StatTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="23dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="22dp"
+        android:text="Motor 1 Status: "
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/motor2StatTextView"
+        app:layout_constraintEnd_toStartOf="@+id/motor1TextView"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/wasteImageView"
+        android:layout_width="368dp"
+        android:layout_height="329dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="23dp"
+        app:layout_constraintBottom_toTopOf="@+id/captureImageButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/imageLabelTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="71dp"
+        android:layout_marginBottom="45dp"
+        android:text="Smart Waste Segregation"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/wasteImageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/captureImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="139dp"
+        android:layout_marginEnd="139dp"
+        android:layout_marginBottom="54dp"
+        android:text="Capture Image"
+        app:layout_constraintBottom_toTopOf="@+id/wasteTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/wasteTypeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginBottom="20dp"
+        android:text="Waste type: "
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/wasteSubclassTypeTextView"
+        app:layout_constraintEnd_toStartOf="@+id/wasteTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wasteImageView" />
+
+    <TextView
+        android:id="@+id/wasteTextView"
+        android:layout_width="204dp"
+        android:layout_height="23dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="21dp"
+        android:text="NA"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/wasteSubclassTextView"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

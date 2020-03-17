@@ -3,8 +3,8 @@
 #include <ESP8266WiFi.h>
 
 // Setup WiFI SSID & Password
-const char* ssid = "Pixel_3332";
-const char* password = "bosePixel";
+const char* ssid = "YOUR_WIFI_SSID";
+const char* password = "YOUR_WIFI_PASSWORD";
 
 // Set web server port number to 80
 WiFiServer server(80);

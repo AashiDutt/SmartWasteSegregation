@@ -12,7 +12,7 @@
 
 **4.** Python 3
 
-**5.** PyTorch
+**5.** Tensorflow
 
 # Usage
 
@@ -29,6 +29,7 @@
 **6.** The ML model performs on-device image classification for the waste type and sends a command to the Arduino board over WiFi to control the servo motor controlling the lid for the appropriate bin.
 
 # Project Report
+Detailed Project Report [here](https://github.com/AashiDutt/SmartWasteSegregation/blob/master/Detailed_Report.pdf)
 
 # Project Demo
 
